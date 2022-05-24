@@ -1,6 +1,6 @@
-import React from 'react'
-import Contact_session from './Contact_form'
-import Contact_grid from './Contact_grid'
+import React from 'react';
+import Contact_session from './Contact_form';
+import Contact_grid from './Contact_grid';
 
 const Contact = () => {
   return (

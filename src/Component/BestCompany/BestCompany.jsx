@@ -39,12 +39,12 @@ export default class BestCompany extends Component {
                                         <div className='image'> <img src="/image/icons-012-analytic.png" alt="" className='img-fluid' /></div>
                                         <div className='Hv'><span></span></div>
                                         <h5 className="card-title font-weight-bold ">Sachin bhardvaj</h5>
-                                        <div className="card-detail">
+                                        
                                             <div className="card-body">
                                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                                 <p className="card-text-link"><small className="text-muted">Last updated 3 mins ago</small></p>
                                             </div>
-                                        </div>
+                                        
                                     </div>
 
 
@@ -52,12 +52,12 @@ export default class BestCompany extends Component {
                                         <div className='image'> <img src="/image/icons-013-customer-service-agent.png" alt="" className='img-fluid' /></div>
                                         <div className='Hv'><span></span></div>
                                         <h5 className="card-title font-weight-bold ">Vijay Chelliah</h5>
-                                        <div className="card-detail">
+                                        
                                             <div className="card-body">
                                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                             </div>
-                                        </div>
+                                        
                                     </div>
 
 
@@ -66,12 +66,12 @@ export default class BestCompany extends Component {
                                         <div className='image'> <img src="/image/icons-011-content-1.png" alt="" className='img-fluid' />
                                         </div>                                    <div className='Hv'><span></span></div>
                                         <h5 className="card-title font-weight-bold ">Shri Dhanya</h5>
-                                        <div className="card-detail">
+                                        
                                             <div className="card-body">
                                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                                 <p className="card-text-link"><small className="text-muted">Last updated 3 mins ago</small></p>
                                             </div>
-                                        </div>
+                                        
                                     </div>
 
 
@@ -79,12 +79,12 @@ export default class BestCompany extends Component {
                                         <div className='image'> <img src="/image/icons-012-analytic.png" alt="" className='img-fluid' />
                                         </div>                                   <div className='Hv'><span></span></div>
                                         <h5 className="card-title font-weight-bold ">Vijay Chelliah</h5>
-                                        <div className="card-detail">
+                                        
                                             <div className="card-body">
                                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                                 <p className="card-text-link"><small className="text-muted">Last updated 3 mins ago</small></p>
                                             </div>
-                                        </div>
+                                        
                                     </div>
 
 
@@ -92,12 +92,12 @@ export default class BestCompany extends Component {
                                         <div className='image'> <img src="/image/icons-013-customer-service-agent.png" alt="" className='img-fluid' /></div>
                                         <div className='Hv'><span></span></div>
                                         <h5 className="card-title font-weight-bold ">Sachin bhardvaj</h5>
-                                        <div className="card-detail">
+                                        
                                             <div className="card-body">
                                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                                 <p className="card-text-link"><small className="text-muted">Last updated 3 mins ago</small></p>
                                             </div>
-                                        </div>
+                                        
                                     </div>
 
                                 </Slider>

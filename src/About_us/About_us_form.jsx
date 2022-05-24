@@ -35,7 +35,7 @@ const About_us_form = () => {
                 <input type="text" className="form-control" placeholder="Your Messages" />
               </div>
             </div>
-            <button className='btn bg-primary text-white mt-5'>Send Message</button>
+            <button className='btn text-white mt-5'>Send Message</button>
 
           </form>
 

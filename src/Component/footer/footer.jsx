@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-
+import { RiArrowDropRightLine } from "react-icons/ri";
 
 const Footer = () => {
     return (
@@ -61,25 +61,25 @@ const Footer = () => {
                             <hr className='bg-dark mt-4' />
                             <ul className="list-unstyled mt-lg-4">
                                 <li>
-                                    <a href="#!"> Android App development</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/> Android App development</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Flutter App development</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/>Flutter App development</a>
                                 </li>
                                 <li>
-                                    <a href="#!">ReactJS development</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/>ReactJS development</a>
                                 </li>
                                 <li>
-                                    <a href="#!"> Angular development</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/> Angular development</a>
                                 </li>
                                 <li>
-                                    <a href="#!">NodeJS development</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/>NodeJS development</a>
                                 </li>
                                 <li>
-                                    <a href="#!">React Native App development</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/>React Native App development</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Vue App development</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/>Vue App development</a>
                                 </li>
                             </ul>
 
@@ -94,28 +94,28 @@ const Footer = () => {
                             <hr className='bg-dark' />
                             <ul className="list-unstyled mt-lg-4">
                                 <li>
-                                    <a href="#!">Android / iOS Developers</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/>Android / iOS Developers</a>
                                 </li>
                                 <li>
-                                    <a href="#!"> Full Stack Developers</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/> Full Stack Developers</a>
                                 </li>
                                 <li>
-                                    <a href="#!"> ReactJS Developers</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/> ReactJS Developers</a>
                                 </li>
                                 <li>
-                                    <a href="#!"> Front End Developers</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/> Front End Developers</a>
                                 </li>
                                 <li>
-                                    <a href="#!"> NodeJS Developers</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/> NodeJS Developers</a>
                                 </li>
                                 <li>
-                                    <a href="#!">  Angular Developers</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/>  Angular Developers</a>
                                 </li>
                                 <li>
-                                    <a href="#!"> React Native Developers</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/> React Native Developers</a>
                                 </li>
                                 <li>
-                                    <a href="#!"> Flutter Developers</a>
+                                    <a href="#!"><RiArrowDropRightLine className='a_icon'/> Flutter Developers</a>
                                 </li>
                             </ul>
 

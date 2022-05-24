@@ -10,7 +10,7 @@ const SwCycle = () => {
 
                 <div className='row'>
                     <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
-                        <div className="card mt-4 shadow">
+                        <div className="card mt-4">
                             <div className="card-body">
                                 <div className='features-card-image'>
                                     <img src="/image/icons-022-language.png" alt="" className='img-fluid position-absolute mt-2' />
@@ -24,7 +24,7 @@ const SwCycle = () => {
                         </div>
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
-                        <div className="card mt-4 shadow">
+                        <div className="card mt-4">
                             <div className="card-body">
                                 <div className='features-card-image'>
                                     <img src="/image/icons-023-driver-license.png" alt="" className='img-fluid position-absolute mt-2' />
@@ -38,7 +38,7 @@ const SwCycle = () => {
                         </div>
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
-                        <div className="card mt-4 shadow">
+                        <div className="card mt-4">
                             <div className="card-body">
                                 <div className='features-card-image'>
                                     <img src="/image/icons-024-data.png" alt="" className='img-fluid position-absolute mt-2' />
@@ -54,7 +54,7 @@ const SwCycle = () => {
                 </div>
                 <div className='row'>
                     <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
-                        <div className="card mt-4 shadow">
+                        <div className="card mt-4">
                             <div className="card-body">
                                 <div className='features-card-image'>
                                     <img src="/image/icons-025-browser.png" alt="" className='img-fluid position-absolute mt-2' />
@@ -68,7 +68,7 @@ const SwCycle = () => {
                         </div>
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
-                        <div className="card mt-4 shadow">
+                        <div className="card mt-4">
                             <div className="card-body">
                                 <div className='features-card-image'>
                                     <img src="/image/icons-026-compliant.png" alt="" className='img-fluid position-absolute mt-2' />
@@ -82,7 +82,7 @@ const SwCycle = () => {
                         </div>
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
-                        <div className="card mt-4 shadow">
+                        <div className="card mt-4">
                             <div className="card-body">
                                 <div className='features-card-image'>
                                     <img src="/image/icons-029-fair.png" alt="" className='img-fluid position-absolute mt-2' />

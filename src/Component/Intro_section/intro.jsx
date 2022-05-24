@@ -25,9 +25,9 @@ const intro = () => {
                         </div>
 
                         <p className='nm'>ZordAPP</p>
-                        <h1>Hire Software Developers in an instant</h1>
+                        <h6>Hire Software Developers in an instant</h6>
                         <p>With the growing competition in the market, we at Zordapps help you outstand your competitors with a solid digital presence for your company. We develop engaging websites and mobile applications that help you turn your business global.</p>
-                        <button className='btn bg-primary text-white'>Hire Developers!</button>
+                        <button className='btn  text-white'>Hire Developers!</button>
                         <div className="box">
                             <div className="text animated bounce "></div>
                         </div>
@@ -61,7 +61,7 @@ const intro = () => {
                                     <input type="text" className="form-control" placeholder="Your Messages" />
                                 </div>
                             </div>
-                            <button className='btn bg-primary text-white mt-5'>Send Message</button>
+                            <button className='btn text-white mt-5'>Send Message</button>
 
                         </form>
                         <img className='rotate rotate_circle img-fluid' src="/image/shape-banner-circle.png" alt="" />

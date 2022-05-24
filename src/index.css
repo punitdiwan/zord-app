@@ -107,14 +107,15 @@ form h1 {
   font-size: 3rem !important;
 }
 
-.int_detail h1 {
+.int_detail h6 {
   font-family: 'Viga', sans-serif;
   font-size: 4rem;
 }
 
 h1 {
   font-family: 'Viga', sans-serif;
-  font-size: 5rem;
+  font-size: 3rem !important;
+
 }
 
 .int_detail .form-control {
@@ -131,6 +132,26 @@ h1 {
 
 .saas img {
   width: 80%;
+}
+
+/* button :hover */
+
+.btn {
+  height: 3rem;
+  width: auto;
+  background: #004FFF !important;
+  border: none;
+  color: #fff;
+  box-shadow: 0 0 1px #ccc;
+  transition-timing-function: ease-out;
+  transition: linear;
+  transition-duration: 2s;
+  box-shadow: 0px 0px 0 0 #31708f inset, 0px 0px 0 #31708f inset;
+}
+
+.btn:hover {
+  box-shadow: 0px 50px 0 0px #111111 inset, 0px -50px 0 0px #313a8f inset;
+  color: white !important;
 }
 
 
@@ -302,16 +323,21 @@ h1 {
 }
 
 .overflow {
-  background-image: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-
+  background-image: url(https://image.shutterstock.com/image-vector/testimonials-on-colorful-speech-bubble-600w-1810486636.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cards {
   width: 100%;
   position: relative;
-  border-radius: 10px;
   overflow: hidden;
 
+}
+
+footer a {
+  color: white;
 }
 
 .image img {
@@ -342,8 +368,8 @@ h1 {
   border-radius: 12%;
   transform: rotate(-15deg);
   background: rgba(252, 153, 153, 0.288);
-  bottom: 80%;
-  right: 12%;
+  bottom: 82%;
+  right: 10%;
   transition: ease-in, 1s;
 
 }
