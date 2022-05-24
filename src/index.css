@@ -59,7 +59,8 @@ code {
 
 }
 
-.dropdown-menu, .dropdown{
+.dropdown-menu,
+.dropdown {
   transition: ease-in 2s linear;
 }
 
@@ -286,8 +287,11 @@ h1 {
 }
 
 .card_carousel .card-title {
-  background: #0050fca9;
+  background: #0050fc;
+  border: 0ch;
+
 }
+
 
 .card_carousel h1 span {
   font-size: 4rem;
@@ -326,7 +330,7 @@ h1 {
   height: 5rem;
   background: white;
   z-index: 5;
-  left: 35%;
+  left: 40%;
   margin-bottom: 1rem;
   border-radius: 50%;
 }
@@ -335,11 +339,11 @@ h1 {
   position: absolute;
   height: 100%;
   width: 100%;
-  border-radius: 15%;
+  border-radius: 12%;
   transform: rotate(-15deg);
   background: rgba(252, 153, 153, 0.288);
   bottom: 80%;
-  right: 8%;
+  right: 12%;
   transition: ease-in, 1s;
 
 }
@@ -403,21 +407,26 @@ h1 {
   #slider-container #slider .slide {
     width: calc(10% - 20px);
   }
-  .navbar-brand img{
+
+  .navbar-brand img {
     height: 2rem;
     display: flex;
     margin-left: 20%;
   }
-  .navbar-toggler{
+
+  .navbar-toggler {
     margin-right: 2rem;
   }
-  .navbar-nav li{
+
+  .navbar-nav li {
     text-align: center;
     padding: 1rem;
   }
-  .Que{
+
+  .Que {
     display: none;
   }
+
   .int_detail {
     width: 80%;
     margin-left: 50%;
