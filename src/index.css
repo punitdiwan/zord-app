@@ -1,13 +1,564 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, Arial, Helvetica, sans-serif, 'Segoe UI', 'Roboto', 'Oxygen', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,
+  ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav_button {
+  font-size: 16px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar img {
+  height: 3rem;
+}
+
+.icon {
+  height: 21px;
+  width: 25px;
+
+}
+
+.Que {
+  font-size: 12px;
+  height: 60px;
+}
+
+.Que span {
+  color: #004FFF;
+}
+
+.Que .head {
+  font-size: 23px;
+  color: #004FFF;
+}
+
+.nav_detail {
+  color: rgb(240, 248, 255);
+}
+
+.nav_detail p {
+  margin: auto;
+  font-size: 14px;
+
+
+}
+
+.nav_clr {
+  background: #004FFF;
+
+}
+
+.dropdown-menu, .dropdown{
+  transition: ease-in 2s linear;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background: #004FFF;
+  color: white;
+}
+
+.nav_icon .icn_li {
+
+  background: rgba(255, 254, 254, 0.473);
+  height: 26px;
+  width: 26px;
+  padding: 5px;
+  color: aliceblue;
+}
+
+.icn {
+  background: rgba(255, 254, 254, 0.473);
+  height: 24px;
+  width: 24px;
+  padding: 5px;
+  color: aliceblue;
+
+}
+
+.int_detail .nm {
+  color: #004FFF;
+  font-weight: bold;
+
+}
+
+.int_detail p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+form h1 {
+  font-size: 3rem !important;
+}
+
+.int_detail h1 {
+  font-family: 'Viga', sans-serif;
+  font-size: 4rem;
+}
+
+h1 {
+  font-family: 'Viga', sans-serif;
+  font-size: 5rem;
+}
+
+.int_detail .form-control {
+  padding: 12px 12px;
+  height: 40px;
+}
+
+.saas h2 {
+  font-family: 'Viga', sans-serif;
+  font-size: 3rem;
+}
+
+/* saas solution */
+
+.saas img {
+  width: 80%;
+}
+
+
+/* cycle css */
+
+.cycle h1 {
+  font-family: 'Viga', sans-serif;
+  width: 50%;
+
+}
+
+.cycle .features-card-text-area {
+  width: 80%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+
+.features-card-text-area h5 {
+  font-family: 'Viga', sans-serif;
+}
+
+.features-card-text-area p {
+  Color: #666666;
+}
+
+/* footer css  */
+
+.footer-css {
+  background-color: #00000d;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.footer-css h5 {
+  /* font-weight: bold; */
+
+  font-size: 22px;
+  font-family: 'Viga', sans-serif;
+  text-align: left;
+
+}
+
+.footer-css h6 {
+  font-weight: bold;
+
+}
+
+.footer-css .list-unstyled {
+  line-height: 28px;
+}
+
+.footer-copyright {
+  background-color: #00000d;
+
+}
+
+.footer-css .icn_li {
+  background: rgba(255, 254, 254, 0.473);
+  height: 24px;
+  width: 24px;
+  padding: 5px;
+  color: aliceblue;
+}
+
+/* Carousel css */
+#container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: teal;
+  display: grid;
+  place-items: center
+}
+
+#slider-container {
+  height: 300px;
+  width: 85vw;
+  max-width: 1400px;
+  background: #54d5e4;
+  box-shadow: 5px 5px 8px gray inset;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+#slider-container .btn {
+  position: absolute;
+  top: calc(50% - 30px);
+  height: 30px;
+  width: 30px;
+  border-left: 8px solid pink;
+  border-top: 8px solid pink;
+}
+
+#slider-container .btn:hover {
+  transform: scale(1.2);
+}
+
+#slider-container .btn.inactive {
+  border-color: rgb(153, 121, 126)
+}
+
+#slider-container .btn:first-of-type {
+  transform: rotate(-45deg);
+  left: 10px
+}
+
+#slider-container .btn:last-of-type {
+  transform: rotate(135deg);
+  right: 10px;
+}
+
+#slider-container #slider {
+  display: flex;
+  width: 1000%;
+  height: 100%;
+  transition: all .5s;
+}
+
+#slider-container #slider .slide {
+  height: 90%;
+  margin: auto 10px;
+  background-color: #a847a4;
+  box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white;
+  display: grid;
+  place-items: center;
+}
+
+#slider-container #slider .slide span {
+  color: rgb(41, 38, 38);
+  font-size: 150px;
+}
+
+.carousel1 img {
+  opacity: 0.7;
+}
+
+.carousel1 img:hover {
+  opacity: 1;
+}
+
+.card h5 {
+  /* font-size: 2rem; */
+  font-family: 'Viga', sans-serif;
+  color: white;
+}
+
+.card_carousel {
+  background: #0051ffea;
+}
+
+.card_carousel .card-title {
+  background: #0050fca9;
+}
+
+.card_carousel h1 span {
+  font-size: 4rem;
+  font-family: 'Viga', sans-serif;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  opacity: 0.5;
+}
+
+.overflow {
+  background-image: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+}
+
+.cards {
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.image img {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  top: 1rem;
+  left: 1rem;
+
+}
+
+.cards .image {
+  position: relative;
+  margin-top: 2rem;
+  width: 5rem;
+  height: 5rem;
+  background: white;
+  z-index: 5;
+  left: 35%;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.Hv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 15%;
+  transform: rotate(-15deg);
+  background: rgba(252, 153, 153, 0.288);
+  bottom: 80%;
+  right: 8%;
+  transition: ease-in, 1s;
+
+}
+
+.cards:hover .Hv {
+  background: #0050fc;
+  color: top bottom;
+}
+
+.cards small:hover {
+  color: #0050fc;
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+  #slider-container #slider .slide {
+    width: calc(2.5% - 20px);
+  }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+  #slider-container #slider .slide {
+    width: calc(3.3333333% - 20px);
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  #slider-container #slider .slide {
+    width: calc(5% - 20px);
+  }
+
+  .BeastComapny {
+    display: none;
+  }
+
+  .carousel1 {
+    display: none;
+  }
+
+  .card_carousel {
+    display: none;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .rotate_circle {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+  #slider-container #slider .slide {
+    width: calc(10% - 20px);
+  }
+  .navbar-brand img{
+    height: 2rem;
+    display: flex;
+    margin-left: 20%;
+  }
+  .navbar-toggler{
+    margin-right: 2rem;
+  }
+  .navbar-nav li{
+    text-align: center;
+    padding: 1rem;
+  }
+  .Que{
+    display: none;
+  }
+  .int_detail {
+    width: 80%;
+    margin-left: 50%;
+  }
+
+  .saas h2 {
+    font-family: 'Viga', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .int_detail h1 {
+    font-size: 3rem;
+  }
+
+  .icons h1 {
+    font-size: 2rem;
+  }
+
+}
+
+/* animation portion */
+
+
+
+.text {
+  height: 14px;
+  width: 14px;
+  border-radius: 100%;
+  text-align: center;
+  margin-top: 56px;
+  background: linear-gradient(127deg, #f724c9, #2f3fe9);
+  font-size: 1.0em;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+}
+
+
+.rotate {
+  height: 28px;
+  width: 28px;
+  animation: rotation 3s infinite linear;
+
+
+}
+
+.rotate_circle {
+  height: 90px;
+  width: 90px;
+  right: -60px;
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(180deg);
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav_clr {
+    width: 100%;
+  }
+
+  .int_detail {
+    width: 100%;
+
+  }
+
+  form {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .icons img {
+    display: flex;
+    justify-content: space-between;
+    /* background: #000; */
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .card_info {
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* About_us Page */
+
+.about_context h2 {
+  font-size: 2rem;
+}
+
+
+/* contact us page */
+
+.int_detail iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
 }
