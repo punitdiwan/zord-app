@@ -16,10 +16,10 @@ const Navbar = () => {
 
                     <div className='col-lg-2 col-md-6 col-sm-12 col-12'>
                         <div className="nav_icon text-lg-right text-sm-center mx-lg-auto  ml-5 mt-sm-2 mb-2">
-                            <FaFacebookF className="rounded-circle icn_li m-1" />
-                            <FaLinkedinIn className="rounded-circle icn_li m-1" />
-                            <FaTwitter className="rounded-circle icn_li m-1" />
-                            <FaInstagram className="rounded-circle icn_li m-1" />
+                            <a href="https://www.facebook.com/zordapps/"> <FaFacebookF className="rounded-circle icn_li m-1" /></a>
+                            <a href="https://www.linkedin.com/company/zordappsolutions/"><FaLinkedinIn className="rounded-circle icn_li m-1" /></a>
+                            <a href="https://twitter.com/zordapps/"><FaTwitter className="rounded-circle icn_li m-1" /></a>
+                            <a href="https://www.instagram.com/zordapps/"><FaInstagram className="rounded-circle icn_li m-1" /></a>
                         </div></div>
 
                 </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
-                        <button className="btn text-dark border-danger py-2">hire us!<FaArrowRight className="bg-danger icon rounded m-1 text-white p-1" /></button>
+                        <button className="btn bg-light text-dark border-danger py-2">hire us!<FaArrowRight className="bg-danger icon rounded m-1 text-white p-1" /></button>
                     </form>
                     <div className="nav-item Que nav-link text-left d-flex">
                         <FaHeadset className="head m-2" />

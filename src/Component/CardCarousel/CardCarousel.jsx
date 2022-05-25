@@ -25,15 +25,15 @@ export default class courosel1 extends Component {
             <div>
                 <div className='overflow'>
                     <div className='card_carousel h-100 py-5'>
-                        <h1 className='text-white text-center py-5'>Join with <span className='position-absolute'>TESTIMONIALS</span>Other Successful<br /> Organizations</h1>
+                        <h1 className='text-white text-center py-5'>Join with Other Successful<br /> Organizations</h1>
                         <div className='row d-flex img justify-content-between'>
                             <div className='col-lg-12 col-md-12 col-sm-10 col-10'>
-                                <div className='carousel1 container mt-5'>
+                                <div className=' container  mt-5'>
                                     <div className='row'>
                                         <div className='col-lg-12 col-md-12 col-sm-10 col-10'>
                                             <Slider ref={slider => (this.slider = slider)} {...settings}>
-                                                <div className="card border border-primary w-75 ">
-                                                    <h5 className="card-title py-2 px-1 ">Sachin Kanthaswami</h5>
+                                                <div className="carousel1 card border border-primary ml-5 w-75">
+                                                    <h5 className="card-title py-3 px-2 ">Sachin Kanthaswami</h5>
                                                     <div className="card-detail">
                                                         <div className="card-body">
                                                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -42,8 +42,8 @@ export default class courosel1 extends Component {
                                                     </div>
                                                 </div>
 
-                                                <div className="card border border-primary w-75">
-                                                    <h5 className="card-title py-2 px-1 ">Sachin bhardvaj</h5>
+                                                <div className="card border border-primary ml-5 w-75">
+                                                    <h5 className="card-title py-3 px-2 ">Sachin bhardvaj</h5>
                                                     <div className="card-detail">
                                                         <div className="card-body">
                                                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -52,8 +52,8 @@ export default class courosel1 extends Component {
                                                     </div>
                                                 </div>
 
-                                                <div className="card border border-primary w-75">
-                                                    <h5 className="card-title py-2 px-1 ">Vijay Chelliah</h5>
+                                                <div className="card border border-primary ml-5 w-75">
+                                                    <h5 className="card-title py-3 px-2 ">Vijay Chelliah</h5>
                                                     <div className="card-detail">
                                                         <div className="card-body">
                                                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -62,8 +62,8 @@ export default class courosel1 extends Component {
                                                     </div>
                                                 </div>
 
-                                                <div className="card border border-primary w-75">
-                                                    <h5 className="card-title py-2 px-1 ">Shri Dhanya</h5>
+                                                <div className="card border border-primary ml-5 w-75">
+                                                    <h5 className="card-title py-3 px-2 ">Shri Dhanya</h5>
                                                     <div className="card-detail">
                                                         <div className="card-body">
                                                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -72,8 +72,8 @@ export default class courosel1 extends Component {
                                                     </div>
                                                 </div>
 
-                                                <div className="card border border-primary w-75">
-                                                    <h5 className="card-title py-2 px-1 ">Vijay Chelliah</h5>
+                                                <div className="card border border-primary ml-5 w-75">
+                                                    <h5 className="card-title py-3 px-2 ">Vijay Chelliah</h5>
                                                     <div className="card-detail">
                                                         <div className="card-body">
                                                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -82,8 +82,8 @@ export default class courosel1 extends Component {
                                                     </div>
                                                 </div>
 
-                                                <div className="card border border-primary w-75">
-                                                    <h5 className="card-title py-2 px-1 ">Sachin bhardvaj</h5>
+                                                <div className="card border border-primary ml-5 w-75">
+                                                    <h5 className="card-title py-3 px-2 ">Sachin bhardvaj</h5>
                                                     <div className="card-detail">
                                                         <div className="card-body">
                                                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

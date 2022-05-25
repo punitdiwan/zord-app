@@ -14,7 +14,7 @@ const Saassolution = () => {
           <div className='col-lg-6 col-md-6 col-sm-12 col-12 mt-5 mt-md-5'>
                         <h2 >Zordapp is The Most Powerful SAAS Solution</h2>
                         <p>We design and develop user-friendly softwares, high in quality, creative, and converting. We have catered to the needs in building software for various industries like Medical & Pharma, Fashion & Clothing, Travel & Tourism, Education & Training, Food & Beverages, Entertainment, Automobile,eCommerce, etc. We stand out to meet the needs of companies that demand complex software programs and help them achieve that most economically.</p>
-                        <button className='btn bg-primary text-white'>Hire Developers!</button>
+                        <button className='btn text-white'>Hire Developers!</button>
                   </div>
                 </div>
               <div>
